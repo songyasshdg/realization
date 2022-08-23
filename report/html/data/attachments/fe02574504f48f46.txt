@@ -1,0 +1,22 @@
+[32mINFO    [0m Test:__init__.py:90 ------------------------------------------------------
+[32mINFO    [0m Test:__init__.py:91 Func testcase_01 in file: C:\PycharmProjects\realization\test\case\test_subscribetemp.py
+[32mINFO    [0m 产品运营:my_base.py:20 
+==================================================接口自动化测试开始==========================================
+[32mINFO    [0m 产品运营:my_base.py:65 
+请求方法：POST
+请求地址：http://192.168.1.38:6105/operate/subscriptionTemplateConfig/list
+请求参数:{'appid': '', 'create_owner': '', 'create_time': '', 'handle': '', 'json': '', 'limit': '100', 'order': '', 'page': '', 'start': '0', 'template_id': '', 'update_owner': '', 'update_time': ''}
+发送请求：appid=&create_owner=&create_time=&handle=&json=&limit=100&order=&page=&start=0&template_id=&update_owner=&update_time=
+请求头:{'token': 'wbtokengtzspaww7edhr85hk4ar5fnb', 'Content-Type': 'application/x-www-form-urlencoded', 'charset': 'utf-8'}
+响应未超过10秒:None
+上传文件:None
+
+
+响应结果：{"ret":1,"msg":"操作成功","data":{"total":14,"list":[{"appid":"10001","create_owner":"songya","create_time":"2022-08-17 12:02:52.0","json":"{\"1\":{\"value\":\"1\"}}","page":"5","template_id":"1","update_owner":"songya","update_time":"2022-08-17 12:03:27.0"},{"appid":"19069","create_owner":"yyc","create_time":"2022-05-23 14:36:16.0","json":"{\"qqq\":{\"value\":\"123s\"},\"dsd\":{\"value\":\"8792d\"}}","page":"/ss/dd/dsa/a","template_id":"ssss","update_owner":"yyc","update_time":"2022-05-23 15:03:35.0"},{"appid":"13265","create_owner":"yyc","create_time":"2022-05-23 14:26:44.0","json":"{\"h\":{\"value\":\"6\"},\"gfhghf\":{\"value\":\"45\"},\"hg\":{\"value\":\"5\"}}","page":"/gjhgfg/fgh/gg/g","template_id":"tytyty","update_owner":"yyc","update_time":"2022-05-23 14:32:00.0"},{"appid":"12465","create_owner":"yyc","create_time":"2022-05-23 12:03:44.0","json":"{\"name\":\"yyc\",\"age\":\"23\",\"sex\":\"男\"}","page":"vsd122/13","template_id":"csc1","update_owner":"yyc","update_time":"2022-05-23 12:18:49.0"},{"appid":"11265","create_owner":"liml","create_time":"2022-05-19 17:44:29.0","json":"{\"fgdg\":\"dfd\"}","page":"vsd1","template_id":"csc1","update_owner":"yyc","update_time":"2022-05-23 12:13:33.0"},{"appid":"11265","create_owner":"liml","create_time":"2022-05-19 17:54:03.0","json":"{}","page":"s","template_id":"dew","update_owner":"yyc","update_time":"2022-05-23 12:02:29.0"},{"appid":"38734","json":"{\"character_string1\":{\"value\":\"100/100\"},\"thing2\":{\"value\":\"体力恢复啦，赶快来过关~\"}}","page":"pages/index/index","template_id":"cEY7CCQ28upycTHIoM-vPh3pRdS0-7-YGXnP7eTwNbU","update_owner":"liml","update_time":"2022-05-19 16:12:09.0"},{"appid":"9999","create_owner":"songya","create_time":"2022-06-01 11:12:29.0","json":"{}","page":"1","template_id":"1"},{"appid":"10001","create_owner":"yyc","create_time":"2022-05-19 16:36:49.0","json":"{\"fgdg\":\"dfd\"}","page":"/df/dsfs","template_id":"dsadsa"},{"appid":"10002","create_owner":"songya","create_time":"2022-08-17 12:15:56.0","json":"{}","page":"asd","template_id":"asd"},{"appid":"19068","create_owner":"yyc","create_time":"2022-05-23 14:37:03.0","json":"{\"qqq\":{\"value\":\"123s\"},\"dsd\":{\"value\":\"8792d\"}}","page":"/ss/dd/dsa/a","template_id":"ssss"},{"appid":"16265","create_owner":"songya","create_time":"2022-08-17 14:14:30.0","json":"{}","page":"1","template_id":"1"},{"appid":"15265","create_owner":"yyc","create_time":"2022-05-23 14:34:02.0","json":"{\"kk\":{\"value\":\"11\"},\"jj\":{\"value\":\"33\"}}","page":"kkk","template_id":"jkj"},{"appid":"13265","create_owner":"yyc","create_time":"2022-05-23 14:33:17.0","json":"{\"h\":{\"value\":\"6\"},\"gfhghf\":{\"value\":\"45\"},\"hg\":{\"value\":\"5\"}}","page":"/gjhgfg/fgh/gg/g","template_id":"tytyty777"}]}}
+
+
+[32mINFO    [0m 产品运营:my_assert.py:31 状态码:200, 响应ret:1, 响应msg:操作成功
+[32mINFO    [0m 产品运营:my_jsonpath.py:44 响应结果包含:[1, '操作成功']
+[32mINFO    [0m 产品运营:my_time.py:17 响应时间:0.089089
+[32mINFO    [0m 产品运营:my_base.py:25 
+=================================================接口自动化测试结束===========================================

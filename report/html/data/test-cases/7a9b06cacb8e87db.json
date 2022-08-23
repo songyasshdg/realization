@@ -1,0 +1,141 @@
+{
+  "uid" : "7a9b06cacb8e87db",
+  "name" : "增加-用例1-正向",
+  "fullName" : "test.case.test_wechatsharing.TestWecTest#testcase_01",
+  "historyId" : "9ee13a69337f59d0391f7ec69c010ab7",
+  "time" : {
+    "start" : 1661214456341,
+    "stop" : 1661214456408,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestWecTest",
+    "time" : {
+      "start" : 1661214456340,
+      "stop" : 1661214456341,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestWecTest",
+    "time" : {
+      "start" : 1661214456235,
+      "stop" : 1661214456340,
+      "duration" : 105
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "80f98e30f631386b",
+      "name" : "log",
+      "source" : "80f98e30f631386b.txt",
+      "type" : "text/plain",
+      "size" : 1595
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestWecTest::0",
+    "time" : {
+      "start" : 1661214456409,
+      "stop" : 1661214456409,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestWecTest::0",
+    "time" : {
+      "start" : 1661214456410,
+      "stop" : 1661214456410,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "微信分享内容配置-增加"
+  }, {
+    "name" : "epic",
+    "value" : "微信分享内容配置 -> Api已关联"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test.case"
+  }, {
+    "name" : "suite",
+    "value" : "test_wechatsharing"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWecTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9FSJ2R0"
+  }, {
+    "name" : "thread",
+    "value" : "17864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.case.test_wechatsharing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "7a9b06cacb8e87db.json",
+  "parameterValues" : [ ]
+}

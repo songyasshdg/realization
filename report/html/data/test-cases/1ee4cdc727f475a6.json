@@ -1,0 +1,141 @@
+{
+  "uid" : "1ee4cdc727f475a6",
+  "name" : "查询是否被封禁-用例1-正向",
+  "fullName" : "test.case.test_blacklist.TestBlackLisTt#testcase_01",
+  "historyId" : "db312d7c3e25f491a3fc0c95111c47fe",
+  "time" : {
+    "start" : 1661214458510,
+    "stop" : 1661214459741,
+    "duration" : 1231
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestBlackLisTt",
+    "time" : {
+      "start" : 1661214458399,
+      "stop" : 1661214458509,
+      "duration" : 110
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestBlackLisTt",
+    "time" : {
+      "start" : 1661214458509,
+      "stop" : 1661214458510,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7a82ffd531ef2d74",
+      "name" : "log",
+      "source" : "7a82ffd531ef2d74.txt",
+      "type" : "text/plain",
+      "size" : 1317
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestBlackLisTt::0",
+    "time" : {
+      "start" : 1661214459742,
+      "stop" : 1661214459742,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestBlackLisTt::0",
+    "time" : {
+      "start" : 1661214459741,
+      "stop" : 1661214459742,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "黑名单管理-查询是否被封禁"
+  }, {
+    "name" : "epic",
+    "value" : "黑名单管理"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=2, reruns_delay=2.5)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test.case"
+  }, {
+    "name" : "suite",
+    "value" : "test_blacklist"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBlackLisTt"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9FSJ2R0"
+  }, {
+    "name" : "thread",
+    "value" : "17864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.case.test_blacklist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=2, reruns_delay=2.5)" ]
+  },
+  "source" : "1ee4cdc727f475a6.json",
+  "parameterValues" : [ ]
+}

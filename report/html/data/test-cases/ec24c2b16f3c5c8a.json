@@ -1,0 +1,141 @@
+{
+  "uid" : "ec24c2b16f3c5c8a",
+  "name" : "查询-用例1-正向",
+  "fullName" : "test.case.test_exchangecode.TestExcHnGecode#testcase_03",
+  "historyId" : "5b5676bb0f57c90228b5ccd8ebf7b9ef",
+  "time" : {
+    "start" : 1661214468573,
+    "stop" : 1661214468752,
+    "duration" : 179
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestExcHnGecode",
+    "time" : {
+      "start" : 1661214468572,
+      "stop" : 1661214468572,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestExcHnGecode",
+    "time" : {
+      "start" : 1661214468138,
+      "stop" : 1661214468245,
+      "duration" : 107
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "32a7d66ece417af3",
+      "name" : "log",
+      "source" : "32a7d66ece417af3.txt",
+      "type" : "text/plain",
+      "size" : 18407
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestExcHnGecode::0",
+    "time" : {
+      "start" : 1661214468753,
+      "stop" : 1661214468754,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestExcHnGecode::0",
+    "time" : {
+      "start" : 1661214469023,
+      "stop" : 1661214469023,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "单机兑换码V1"
+  }, {
+    "name" : "feature",
+    "value" : "单机兑换码V1-查询"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=2, reruns_delay=2.5)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test.case"
+  }, {
+    "name" : "suite",
+    "value" : "test_exchangecode"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcHnGecode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9FSJ2R0"
+  }, {
+    "name" : "thread",
+    "value" : "17864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.case.test_exchangecode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=2, reruns_delay=2.5)" ]
+  },
+  "source" : "ec24c2b16f3c5c8a.json",
+  "parameterValues" : [ ]
+}

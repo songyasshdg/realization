@@ -1,0 +1,141 @@
+{
+  "uid" : "10f7388ae795e2c3",
+  "name" : "获取业务配置列表-状态为\"打开\"的数据-用例1-正向",
+  "fullName" : "test.case.test_businessmen.TestBusInes#testcase_05",
+  "historyId" : "ffa7e22b4dcaad4d0345a098b46e18e8",
+  "time" : {
+    "start" : 1661214459885,
+    "stop" : 1661214459912,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestBusInes",
+    "time" : {
+      "start" : 1661214459746,
+      "stop" : 1661214459884,
+      "duration" : 138
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestBusInes",
+    "time" : {
+      "start" : 1661214459884,
+      "stop" : 1661214459885,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e54d030bd17f28a1",
+      "name" : "log",
+      "source" : "e54d030bd17f28a1.txt",
+      "type" : "text/plain",
+      "size" : 2622
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestBusInes::0",
+    "time" : {
+      "start" : 1661214464324,
+      "stop" : 1661214464324,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestBusInes::0",
+    "time" : {
+      "start" : 1661214459912,
+      "stop" : 1661214459913,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "业务模式配置-获取业务配置列表-此接口只要状态为打开的数据"
+  }, {
+    "name" : "epic",
+    "value" : "业务模式配置 -> Api已关联"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=2, reruns_delay=2.5)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test.case"
+  }, {
+    "name" : "suite",
+    "value" : "test_businessmen"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBusInes"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9FSJ2R0"
+  }, {
+    "name" : "thread",
+    "value" : "17864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.case.test_businessmen"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=2, reruns_delay=2.5)" ]
+  },
+  "source" : "10f7388ae795e2c3.json",
+  "parameterValues" : [ ]
+}

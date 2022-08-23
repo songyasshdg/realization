@@ -1,0 +1,529 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test.case",
+    "children" : [ {
+      "name" : "test_businessmen",
+      "children" : [ {
+        "name" : "增加-用例1-正向",
+        "uid" : "ee40b7b30461cceb",
+        "parentUid" : "3b3eebd3f2dec356dd2d31d2254e8507",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214455393,
+          "stop" : 1661214455736,
+          "duration" : 343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改-用例1-正向",
+        "uid" : "cf99f2eeddb87c69",
+        "parentUid" : "3b3eebd3f2dec356dd2d31d2254e8507",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214456533,
+          "stop" : 1661214456609,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除-用例1-正向",
+        "uid" : "a5d209f8a1314919",
+        "parentUid" : "3b3eebd3f2dec356dd2d31d2254e8507",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214457116,
+          "stop" : 1661214457184,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询-用例1-正向",
+        "uid" : "e9b6abf2b28bf5a8",
+        "parentUid" : "3b3eebd3f2dec356dd2d31d2254e8507",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214457847,
+          "stop" : 1661214457948,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取业务配置列表-状态为\"打开\"的数据-用例1-正向",
+        "uid" : "10f7388ae795e2c3",
+        "parentUid" : "3b3eebd3f2dec356dd2d31d2254e8507",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214459885,
+          "stop" : 1661214459912,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "导出文件数据-用例1-正向",
+        "uid" : "d7e34415c1849979",
+        "parentUid" : "3b3eebd3f2dec356dd2d31d2254e8507",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214459917,
+          "stop" : 1661214464319,
+          "duration" : 4402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b3eebd3f2dec356dd2d31d2254e8507"
+    }, {
+      "name" : "test_revision",
+      "children" : [ {
+        "name" : "增加-用例1-正向",
+        "uid" : "8abd1727c22e034",
+        "parentUid" : "505556a316087e5194bad60befcc01ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214455849,
+          "stop" : 1661214456229,
+          "duration" : 380
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询状态打开的数据-用例1-正向",
+        "uid" : "17b29c0e6411f9a3",
+        "parentUid" : "505556a316087e5194bad60befcc01ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214456729,
+          "stop" : 1661214456802,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改-用例1-正向",
+        "uid" : "54a566ad99ae15d3",
+        "parentUid" : "505556a316087e5194bad60befcc01ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214457298,
+          "stop" : 1661214457587,
+          "duration" : 289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除-用例1-正向",
+        "uid" : "657bd04ebfa6c8da",
+        "parentUid" : "505556a316087e5194bad60befcc01ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214458065,
+          "stop" : 1661214458221,
+          "duration" : 156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "505556a316087e5194bad60befcc01ea"
+    }, {
+      "name" : "test_wechatsharing",
+      "children" : [ {
+        "name" : "增加-用例1-正向",
+        "uid" : "7a9b06cacb8e87db",
+        "parentUid" : "a1689d02bf4789ab0627ba1fbcc7e540",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214456341,
+          "stop" : 1661214456408,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询-用例1-正向",
+        "uid" : "c0245eb8fefd7e74",
+        "parentUid" : "a1689d02bf4789ab0627ba1fbcc7e540",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214456931,
+          "stop" : 1661214456990,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改-用例1-正向",
+        "uid" : "5cad7d7fbb39eb93",
+        "parentUid" : "a1689d02bf4789ab0627ba1fbcc7e540",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214457695,
+          "stop" : 1661214457726,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除-用例1-正向",
+        "uid" : "c163821936a647f",
+        "parentUid" : "a1689d02bf4789ab0627ba1fbcc7e540",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214458334,
+          "stop" : 1661214458393,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "导出-用例1-正向",
+        "uid" : "1cd4cd49e02e6d0",
+        "parentUid" : "a1689d02bf4789ab0627ba1fbcc7e540",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214472352,
+          "stop" : 1661214472435,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a1689d02bf4789ab0627ba1fbcc7e540"
+    }, {
+      "name" : "test_blacklist",
+      "children" : [ {
+        "name" : "查询是否被封禁-用例1-正向",
+        "uid" : "1ee4cdc727f475a6",
+        "parentUid" : "133c66a6286fff496b733a605e1e942b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214458510,
+          "stop" : 1661214459741,
+          "duration" : 1231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "133c66a6286fff496b733a605e1e942b"
+    }, {
+      "name" : "test_conversion",
+      "children" : [ {
+        "name" : "查询-用例1-正向",
+        "uid" : "70c269aaa49b79f3",
+        "parentUid" : "34ce91fce633b82eac7f83b9f6178c26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214464439,
+          "stop" : 1661214466047,
+          "duration" : 1608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "导出-用例1-正向",
+        "uid" : "a69b2bd7c373f965",
+        "parentUid" : "34ce91fce633b82eac7f83b9f6178c26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214466054,
+          "stop" : 1661214467617,
+          "duration" : 1563
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "34ce91fce633b82eac7f83b9f6178c26"
+    }, {
+      "name" : "test_eventreporting",
+      "children" : [ {
+        "name" : "查询-用例1-正向",
+        "uid" : "30d94bbdc7c6f1e3",
+        "parentUid" : "7e5c32214e5511a0513bc0f8435e6e00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214467732,
+          "stop" : 1661214467923,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取事件ID-用例1-正向",
+        "uid" : "df3104bab829a1e",
+        "parentUid" : "7e5c32214e5511a0513bc0f8435e6e00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214467931,
+          "stop" : 1661214467986,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "导出-用例1-正向",
+        "uid" : "f93f02417da38272",
+        "parentUid" : "7e5c32214e5511a0513bc0f8435e6e00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214467994,
+          "stop" : 1661214468132,
+          "duration" : 138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7e5c32214e5511a0513bc0f8435e6e00"
+    }, {
+      "name" : "test_exchangecode",
+      "children" : [ {
+        "name" : "生成单个-用例1-正向",
+        "uid" : "5c08757c4dc6a113",
+        "parentUid" : "6a110b4cfb156d7458e91f9eee5ed373",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214468247,
+          "stop" : 1661214468456,
+          "duration" : 209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "批量生成-用例1-正向",
+        "uid" : "f2bdeee0aaad54db",
+        "parentUid" : "6a110b4cfb156d7458e91f9eee5ed373",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214468461,
+          "stop" : 1661214468566,
+          "duration" : 105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询-用例1-正向",
+        "uid" : "ec24c2b16f3c5c8a",
+        "parentUid" : "6a110b4cfb156d7458e91f9eee5ed373",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214468573,
+          "stop" : 1661214468752,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "使用测试-用例1-正向",
+        "uid" : "6da83ca84321f0dd",
+        "parentUid" : "6a110b4cfb156d7458e91f9eee5ed373",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661214468758,
+          "stop" : 1661214468799,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a110b4cfb156d7458e91f9eee5ed373"
+    }, {
+      "name" : "test_lockscreen",
+      "children" : [ {
+        "name" : "增加-用例1-正向",
+        "uid" : "de15a4c7f499f7e",
+        "parentUid" : "f2204404dae88d9fe4671e8d3f5e2f51",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661214469138,
+          "stop" : 1661214469556,
+          "duration" : 418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f2204404dae88d9fe4671e8d3f5e2f51"
+    }, {
+      "name" : "test_mailsending",
+      "children" : [ {
+        "name" : "获取邮件接口-用例1-正向",
+        "uid" : "233f98daaa925a23",
+        "parentUid" : "c1eebf41588d4b6f895424a9744e5a36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214469679,
+          "stop" : 1661214469774,
+          "duration" : 95
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c1eebf41588d4b6f895424a9744e5a36"
+    }, {
+      "name" : "test_noviceguidance",
+      "children" : [ {
+        "name" : "查询-用例1-正向",
+        "uid" : "f4d2ae7dc4d95d14",
+        "parentUid" : "8be8747f8276d0962dae1eaf3df6e713",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214469860,
+          "stop" : 1661214470101,
+          "duration" : 241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "导出-用例1-正向",
+        "uid" : "e8b24ddafb461385",
+        "parentUid" : "8be8747f8276d0962dae1eaf3df6e713",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661214470106,
+          "stop" : 1661214470166,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新手引导柱形图表-用例1-正向",
+        "uid" : "ec821850c49c29a1",
+        "parentUid" : "8be8747f8276d0962dae1eaf3df6e713",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214470180,
+          "stop" : 1661214470234,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8be8747f8276d0962dae1eaf3df6e713"
+    }, {
+      "name" : "test_retention",
+      "children" : [ {
+        "name" : "查询-用例1-正向",
+        "uid" : "6a6415732647aad",
+        "parentUid" : "9e773be2b08c6633c4cbf821fba41a21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214470351,
+          "stop" : 1661214470625,
+          "duration" : 274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "导出-用例1-正向",
+        "uid" : "6eca6a1c12c6c84b",
+        "parentUid" : "9e773be2b08c6633c4cbf821fba41a21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214470632,
+          "stop" : 1661214471477,
+          "duration" : 845
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e773be2b08c6633c4cbf821fba41a21"
+    }, {
+      "name" : "test_smallgame",
+      "children" : [ {
+        "name" : "查询-用例1-正向",
+        "uid" : "e5dd81ca34b3d5a1",
+        "parentUid" : "ad02467915f126202bbbd4744eb6ac91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214471561,
+          "stop" : 1661214471846,
+          "duration" : 285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "操作-用例1-正向",
+        "uid" : "e40830af0365bbc9",
+        "parentUid" : "ad02467915f126202bbbd4744eb6ac91",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661214471855,
+          "stop" : 1661214471873,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad02467915f126202bbbd4744eb6ac91"
+    }, {
+      "name" : "test_subscribetemp",
+      "children" : [ {
+        "name" : "查询-用例1-正向",
+        "uid" : "abcd32ffd65cb2c5",
+        "parentUid" : "37e9e6180c4c04e4051a087917ec4503",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661214472114,
+          "stop" : 1661214472210,
+          "duration" : 96
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "增加-用例1-正向",
+        "uid" : "cc6a90cb9c2aadbb",
+        "parentUid" : "37e9e6180c4c04e4051a087917ec4503",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661214472216,
+          "stop" : 1661214472243,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "37e9e6180c4c04e4051a087917ec4503"
+    } ],
+    "uid" : "test.case"
+  } ]
+}

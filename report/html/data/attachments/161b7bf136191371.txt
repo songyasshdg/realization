@@ -1,0 +1,21 @@
+[32mINFO    [0m Test:__init__.py:90 ------------------------------------------------------
+[32mINFO    [0m Test:__init__.py:91 Func testcase_02 in file: C:\PycharmProjects\realization\test\case\test_smallgame.py
+[32mINFO    [0m 产品运营:my_base.py:20 
+==================================================接口自动化测试开始==========================================
+[32mINFO    [0m 产品运营:my_base.py:65 
+请求方法：POST
+请求地址：http://192.168.1.38:6105/operate/inGamePaymentConfig/handel
+请求参数:{'api_key': '54', 'app_secret': 'http://192.168.1.3/', 'appid': '9999', 'channel': '111', 'create_owner': 'songya', 'create_time': '', 'handle': 'add', 'machid': '545', 'mch_serial': '454', 'notify_url': 'http://192.168.1.38/', 'private_key': '58', 'update_owner': '', 'update_time': '', 'wxappid': '45'}
+发送请求：api_key=54&app_secret=http%3A%2F%2F192.168.1.3%2F&appid=9999&channel=111&create_owner=songya&create_time=&handle=add&machid=545&mch_serial=454&notify_url=http%3A%2F%2F192.168.1.38%2F&private_key=58&update_owner=&update_time=&wxappid=45
+请求头:{'token': 'wbtokenomee3zegmfy6p4xggf8ysgwt', 'Content-Type': 'application/x-www-form-urlencoded', 'charset': 'utf-8'}
+响应未超过10秒:None
+上传文件:None
+
+
+响应结果：{"ret":2,"msg":"token is error!"}
+
+
+[1m[31mERROR   [0m 产品运营:my_error.py:18 导出数据失败,请检查!!:{"ret":2,"msg":"token is error!"}
+NoneType: None
+[32mINFO    [0m 产品运营:my_base.py:25 
+=================================================接口自动化测试结束===========================================

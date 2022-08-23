@@ -1,0 +1,141 @@
+{
+  "uid" : "233f98daaa925a23",
+  "name" : "获取邮件接口-用例1-正向",
+  "fullName" : "test.case.test_mailsending.TestMaisEnDing#testcase_01",
+  "historyId" : "ce38577e5b9b4d74546409d684702679",
+  "time" : {
+    "start" : 1661214469679,
+    "stop" : 1661214469774,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestMaisEnDing",
+    "time" : {
+      "start" : 1661214469566,
+      "stop" : 1661214469677,
+      "duration" : 111
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestMaisEnDing",
+    "time" : {
+      "start" : 1661214469677,
+      "stop" : 1661214469678,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bf0dd556720a089b",
+      "name" : "log",
+      "source" : "bf0dd556720a089b.txt",
+      "type" : "text/plain",
+      "size" : 1336
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestMaisEnDing::0",
+    "time" : {
+      "start" : 1661214469777,
+      "stop" : 1661214469777,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestMaisEnDing::0",
+    "time" : {
+      "start" : 1661214469775,
+      "stop" : 1661214469776,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "礼包补发-获取邮件接口"
+  }, {
+    "name" : "epic",
+    "value" : "礼包补发"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=2, reruns_delay=2.5)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test.case"
+  }, {
+    "name" : "suite",
+    "value" : "test_mailsending"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMaisEnDing"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9FSJ2R0"
+  }, {
+    "name" : "thread",
+    "value" : "17864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.case.test_mailsending"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=2, reruns_delay=2.5)" ]
+  },
+  "source" : "233f98daaa925a23.json",
+  "parameterValues" : [ ]
+}

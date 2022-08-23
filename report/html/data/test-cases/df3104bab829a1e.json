@@ -1,0 +1,141 @@
+{
+  "uid" : "df3104bab829a1e",
+  "name" : "获取事件ID-用例1-正向",
+  "fullName" : "test.case.test_eventreporting.TestCoEvenTre#testcase_02",
+  "historyId" : "173d89647ee45696df098833ad3e227f",
+  "time" : {
+    "start" : 1661214467931,
+    "stop" : 1661214467986,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestCoEvenTre",
+    "time" : {
+      "start" : 1661214467929,
+      "stop" : 1661214467930,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestCoEvenTre",
+    "time" : {
+      "start" : 1661214467627,
+      "stop" : 1661214467731,
+      "duration" : 104
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7b6d99f95fc8b0b9",
+      "name" : "log",
+      "source" : "7b6d99f95fc8b0b9.txt",
+      "type" : "text/plain",
+      "size" : 1364
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestCoEvenTre::0",
+    "time" : {
+      "start" : 1661214467986,
+      "stop" : 1661214467987,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestCoEvenTre::0",
+    "time" : {
+      "start" : 1661214468134,
+      "stop" : 1661214468135,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "小游戏事件上报统计-大数据"
+  }, {
+    "name" : "feature",
+    "value" : "小游戏事件上报统计-获取事件ID"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=2, reruns_delay=2.5)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test.case"
+  }, {
+    "name" : "suite",
+    "value" : "test_eventreporting"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCoEvenTre"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9FSJ2R0"
+  }, {
+    "name" : "thread",
+    "value" : "17864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.case.test_eventreporting"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=2, reruns_delay=2.5)" ]
+  },
+  "source" : "df3104bab829a1e.json",
+  "parameterValues" : [ ]
+}

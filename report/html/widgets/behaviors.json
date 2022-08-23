@@ -1,0 +1,114 @@
+{
+  "total" : 13,
+  "items" : [ {
+    "uid" : "bf9e79b4689c5a51128d630c60dd6793",
+    "name" : "单机兑换码V1",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "296ccdfac89a87cf0d3bc6804e17b82d",
+    "name" : "新手引导-大数据",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "20309a6d4c6f3b43978d4550312074af",
+    "name" : "小游戏内购支付配置",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "7c964fc4da415aeb4389bccbe3949343",
+    "name" : "订阅模板参数配置",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "a1ab3890aeac04b121d977b3b9c34a87",
+    "name" : "新-V2锁屏配置",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "efed395b89fdd0a31dfeaacb3bc53dbc",
+    "name" : "业务模式配置 -> Api已关联",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "7146eaa21e57bd130d5a17fbca29d96c",
+    "name" : "微信分享内容配置 -> Api已关联",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "e06dfde82d592ddfddf126fc4a936f04",
+    "name" : "修图分类管理 -> Api已关联",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "ab79350999d4f469a3a2471d731fefd5",
+    "name" : "小游戏事件上报统计-大数据",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "e071590500b66ca075847af3747b0807",
+    "name" : "外广转化漏斗",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

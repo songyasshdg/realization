@@ -1,0 +1,22 @@
+[32mINFO    [0m Test:__init__.py:90 ------------------------------------------------------
+[32mINFO    [0m Test:__init__.py:91 Func testcase_05 in file: C:\PycharmProjects\realization\test\case\test_businessmen.py
+[32mINFO    [0m 产品运营:my_base.py:20 
+==================================================接口自动化测试开始==========================================
+[32mINFO    [0m 产品运营:my_base.py:65 
+请求方法：POST
+请求地址：http://192.168.1.38:6105/operate/busModelConfig/getModelList
+请求参数:None
+发送请求：None
+请求头:{'token': 'wbtoken32tqk7b80q84jt5vy47y3xx2', 'Content-Type': 'application/x-www-form-urlencoded', 'charset': 'utf-8'}
+响应未超过10秒:None
+上传文件:None
+
+
+响应结果：{"ret":1,"msg":"操作成功","data":[{"id":2,"busModel":"vivoiaa"},{"id":4,"busModel":"xiaomiiaa"},{"id":5,"busModel":"huaweisd"},{"id":6,"busModel":"opposd"},{"id":7,"busModel":"vivosd"},{"id":8,"busModel":"xiaomimj"},{"id":9,"busModel":"oppomj"},{"id":10,"busModel":"ios"},{"id":11,"busModel":"信息流投放"},{"id":12,"busModel":"抖音小游戏"},{"id":13,"busModel":"微信小游戏"},{"id":14,"busModel":"工具不分模式"},{"id":15,"busModel":"直播"},{"id":96,"busModel":"96"},{"id":101,"busModel":"101"},{"id":111,"busModel":"111"},{"id":112,"busModel":"112"},{"id":113,"busModel":"113"},{"id":114,"busModel":"114"},{"id":115,"busModel":"115"},{"id":116,"busModel":"116"},{"id":117,"busModel":"117"},{"id":118,"busModel":"118"},{"id":119,"busModel":"119"},{"id":120,"busModel":"120"},{"id":121,"busModel":"ro."},{"id":122,"busModel":"ro.."},{"id":123,"busModel":"ro1"},{"id":124,"busModel":"ro.4"},{"id":125,"busModel":"ro.4."},{"id":126,"busModel":"126"},{"id":127,"busModel":"127"},{"id":128,"busModel":"128"},{"id":129,"busModel":"129"},{"id":130,"busModel":"130"},{"id":147,"busModel":"147"},{"id":148,"busModel":"148"},{"id":149,"busModel":"149"},{"id":150,"busModel":"150"},{"id":151,"busModel":"151"},{"id":157,"busModel":"157"},{"id":161,"busModel":"161"},{"id":162,"busModel":"162"},{"id":163,"busModel":"163"},{"id":164,"busModel":"164"},{"id":165,"busModel":"165"},{"id":166,"busModel":"166"},{"id":167,"busModel":"167"}]}
+
+
+[32mINFO    [0m 产品运营:my_assert.py:31 状态码:200, 响应ret:1, 响应msg:操作成功
+[32mINFO    [0m 产品运营:my_jsonpath.py:44 响应结果包含:[1, '操作成功']
+[32mINFO    [0m 产品运营:my_time.py:17 响应时间:0.012705
+[32mINFO    [0m 产品运营:my_base.py:25 
+=================================================接口自动化测试结束===========================================

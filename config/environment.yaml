@@ -1,0 +1,17 @@
+#测试环境
+test_environment:
+  name: 产品运营系统
+  http: http://192.168.1.38:6105/
+  headers:
+    users_Content-Type: application/json
+    Content-Type: application/x-www-form-urlencoded
+    token: token
+
+#生产环境
+por_environment:
+  name: 产品运营系统
+  https: https//edc.vigame.cn/
+  po_headers:
+    user_Content-Type: application/json
+    Content-Type: application/x-www-form-urlencoded
+    token: token

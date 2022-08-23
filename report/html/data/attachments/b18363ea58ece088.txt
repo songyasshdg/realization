@@ -1,0 +1,22 @@
+[32mINFO    [0m Test:__init__.py:90 ------------------------------------------------------
+[32mINFO    [0m Test:__init__.py:91 Func testcase_02 in file: C:\PycharmProjects\realization\test\case\test_noviceguidance.py
+[32mINFO    [0m 产品运营:my_base.py:20 
+==================================================接口自动化测试开始==========================================
+[32mINFO    [0m 产品运营:my_base.py:65 
+请求方法：POST
+请求地址：http://192.168.1.38:6105/operate/newGuide/export
+请求参数:{'appid': '', 'channel': '', 'endTime': '2022-08-16', 'group': '', 'limit': '', 'order': '', 'pid': '', 'report': '', 'start': '', 'startTime': '2022-05-18', 'value': 'appid,产品id;channel,渠道;'}
+发送请求：appid=&channel=&endTime=2022-08-16&group=&limit=&order=&pid=&report=&start=&startTime=2022-05-18&value=appid%2C%E4%BA%A7%E5%93%81id%3Bchannel%2C%E6%B8%A0%E9%81%93%3B
+请求头:{'token': 'wbtokenzyctjxi1r8f2cvbngxnkmgse', 'Content-Type': 'application/x-www-form-urlencoded', 'charset': 'utf-8'}
+响应未超过10秒:None
+上传文件:None
+
+
+响应结果：{"ret":0,"msg":"操作失败！异常信息:\n### Error querying database.  Cause: java.sql.SQLException: [9001, 2022082308251019216821708003151062964] : InListExpression should never be empty\n### The error may exist in class path resource [mapper/adb/DataReportMapper.xml]\n### The error may involve defaultParameterMap\n### The error occurred while setting parameters\n### SQL: select t_date,a.appid,b.app app_name,pid,download_channel    ,ifnull(sum(case when id = '545' then user_cnt END),0) '545'    from ads_user_tutorial_daily a   left join dim_app_game b on a.appid = b.appid   where t_date between ? and ?   and a.appid in ()                 GROUP BY t_date,a.appid,download_channel,pid              order by t_date desc\n### Cause: java.sql.SQLException: [9001, 2022082308251019216821708003151062964] : InListExpression should never be empty\n; uncategorized SQLException for SQL []; SQL state [HY000]; error code [1815]; [9001, 2022082308251019216821708003151062964] : InListExpression should never be empty; nested exception is java.sql.SQLException: [9001, 2022082308251019216821708003151062964] : InListExpression should never be empty"}
+
+
+[32mINFO    [0m 产品运营:my_files.py:33 导出路径 -> 请往此路径查看数据:C:\PycharmProjects\realization\test\fie\新手引导.xlsx
+[1m[31mERROR   [0m 产品运营:my_error.py:21 导出数据失败,请检查!!:{"ret":0,"msg":"操作失败！异常信息:\n### Error querying database.  Cause: java.sql.SQLException: [9001, 2022082308251019216821708003151062964] : InListExpression should never be empty\n### The error may exist in class path resource [mapper/adb/DataReportMapper.xml]\n### The error may involve defaultParameterMap\n### The error occurred while setting parameters\n### SQL: select t_date,a.appid,b.app app_name,pid,download_channel    ,ifnull(sum(case when id = '545' then user_cnt END),0) '545'    from ads_user_tutorial_daily a   left join dim_app_game b on a.appid = b.appid   where t_date between ? and ?   and a.appid in ()                 GROUP BY t_date,a.appid,download_channel,pid              order by t_date desc\n### Cause: java.sql.SQLException: [9001, 2022082308251019216821708003151062964] : InListExpression should never be empty\n; uncategorized SQLException for SQL []; SQL state [HY000]; error code [1815]; [9001, 2022082308251019216821708003151062964] : InListExpression should never be empty; nested exception is java.sql.SQLException: [9001, 2022082308251019216821708003151062964] : InListExpression should never be empty"}
+NoneType: None
+[32mINFO    [0m 产品运营:my_base.py:25 
+=================================================接口自动化测试结束===========================================

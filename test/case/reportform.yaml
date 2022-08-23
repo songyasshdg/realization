@@ -1,0 +1,16 @@
+# 一个.py文件对应一个界面的接口的测试用例
+系统: 产品运营系统
+关联的接口: 不要使用用例重跑装饰器, 关联的接口重新跑会关联不上,重跑会导致下一个接口会配置已存在
+test_blacklist.py:        黑名单管理
+test_businessmen.py:      业务模式配置 -> Api已关联
+test_exchangecode.py:     单机兑换码V1
+test_mailsending.py:      礼包补发
+test_revision.py:         修图分类管理 -> Api已关联
+test_lockscreen.py:       新-V2锁屏配置
+test_retention.py:        应用内真实留存
+test_conversion.py:       外广转化漏斗
+test_smallgame.py:        小游戏内购支付配置
+test_noviceguidance.py:   新手引导-大数据
+test_subscribetemp.py:    订阅模板参数配置
+test_wechatsharing.py:    微信分享内容配置 -> Api已关联
+test_eventreporting.py:   小游戏事件上报统计-大数据

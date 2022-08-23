@@ -1,0 +1,22 @@
+[32mINFO    [0m Test:__init__.py:90 ------------------------------------------------------
+[32mINFO    [0m Test:__init__.py:91 Func testcase_01 in file: C:\PycharmProjects\realization\test\case\test_eventreporting.py
+[32mINFO    [0m 产品运营:my_base.py:20 
+==================================================接口自动化测试开始==========================================
+[32mINFO    [0m 产品运营:my_base.py:65 
+请求方法：POST
+请求地址：http://192.168.1.38:6105/game/mgEventReport/get
+请求参数:{'appid': '38778', 'end_date': '2022-08-19', 'start_date': '2022-05-21', 'event_id': '', 'export_file_name': '', 'group': 'tdate,appid,event_id', 'limit': '100', 'order_str': '', 'start': '0', 'value': ''}
+发送请求：appid=38778&end_date=2022-08-19&start_date=2022-05-21&event_id=&export_file_name=&group=tdate%2Cappid%2Cevent_id&limit=100&order_str=&start=0&value=
+请求头:{'token': 'wbtokenz2upl0kqufo6d529bzvtgve8', 'Content-Type': 'application/x-www-form-urlencoded', 'charset': 'utf-8'}
+响应未超过10秒:None
+上传文件:None
+
+
+响应结果：{"ret":1,"msg":"操作成功","data":{"totalSize":3,"totalPages":1,"start":0,"limit":100,"size":3,"list":[{"tdate":"2022-08-08","appid":"38778","appname":"一起来发射（定制）","event_id":"active_pay_server","new_user_cnt":"2","old_user_cnt":"0"},{"tdate":"2022-08-09","appid":"38778","appname":"一起来发射（定制）","event_id":"active_pay_server","new_user_cnt":"1","old_user_cnt":"0"},{"tdate":"2022-08-12","appid":"38778","appname":"一起来发射（定制）","event_id":"active_pay_server","new_user_cnt":"1","old_user_cnt":"0"}]},"totalCount":3,"total":{"new_user_cnt":"4","old_user_cnt":"0"}}
+
+
+[32mINFO    [0m 产品运营:my_assert.py:31 状态码:200, 响应ret:1, 响应msg:操作成功
+[32mINFO    [0m 产品运营:my_jsonpath.py:44 响应结果包含:[1, '操作成功']
+[32mINFO    [0m 产品运营:my_time.py:17 响应时间:0.185579
+[32mINFO    [0m 产品运营:my_base.py:25 
+=================================================接口自动化测试结束===========================================

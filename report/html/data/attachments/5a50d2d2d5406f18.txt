@@ -1,0 +1,17 @@
+[32mINFO    [0m Test:__init__.py:90 ------------------------------------------------------
+[32mINFO    [0m Test:__init__.py:91 Func testcase_04 in file: C:\PycharmProjects\realization\test\case\test_exchangecode.py
+[32mINFO    [0m 产品运营:my_base.py:20 
+==================================================接口自动化测试开始==========================================
+[32mINFO    [0m 产品运营:my_base.py:65 
+请求方法：POST
+请求地址：http://192.168.1.38:6105/operate/exchangeCode/usetest
+请求参数:{'appid': '19075', 'code': '4717091549', 'deviceId': 'test', 'ver': 'v1'}
+发送请求：appid=19075&code=4717091549&deviceId=test&ver=v1
+请求头:{'token': 'wbtokenkwcp55q8ft9o3jo22qjnw2pu', 'Content-Type': 'application/json', 'charset': 'utf-8'}
+响应未超过10秒:None
+上传文件:None
+
+
+响应结果：{"ret":0,"msg":"操作失败！异常信息:null"}
+[32mINFO    [0m 产品运营:my_base.py:25 
+=================================================接口自动化测试结束===========================================

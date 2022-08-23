@@ -1,0 +1,146 @@
+{
+  "uid" : "e8b24ddafb461385",
+  "name" : "导出-用例1-正向",
+  "fullName" : "test.case.test_noviceguidance.TestNoviceGs#testcase_02",
+  "historyId" : "ee944898bc721c43ed3e9976cf5a1ba6",
+  "time" : {
+    "start" : 1661214470106,
+    "stop" : 1661214470166,
+    "duration" : 60
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <realization.test.case.test_noviceguidance.TestNoviceGs object at 0x000002CAF3EFE140>\n\n    @allure.feature(\"新手引导-大数据-导出\")\n    @allure.title('导出-用例1-正向')\n    # @pytest.mark.flaky(reruns=2, reruns_delay=2.5)\n    def testcase_02(self):\n        urls = self.base_urls + self.url_NoviceG_export\n        r = self.requests(method='post', url=urls, data=self.data_NoviceG_export, headers=self.fromHeader())\n        self.with_open(filename=r.content, filepath=\"新手引导.xlsx\")\n>       self.asserts_fails(TrueError=r)\n\ntest\\case\\test_noviceguidance.py:35: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncls = <class 'realization.test.case.test_noviceguidance.TestNoviceGs'>, TrueError = <Response [200]>\n\n    @classmethod  # 针对导出异常断言\n    def asserts_fails(cls, TrueError):\n        if \"token is error!\" in TrueError.text:\n            logger.error(f\"导出数据失败,请检查!!:{TrueError.text}\", exc_info=True)\n            assert False\n        elif \"操作失败\" in TrueError.text:\n            logger.error(f\"导出数据失败,请检查!!:{TrueError.text}\", exc_info=True)\n>           assert False\nE           AssertionError\n\ncomm\\asserts\\my_error.py:22: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestNoviceGs",
+    "time" : {
+      "start" : 1661214470105,
+      "stop" : 1661214470106,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestNoviceGs",
+    "time" : {
+      "start" : 1661214469780,
+      "stop" : 1661214469859,
+      "duration" : 79
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <realization.test.case.test_noviceguidance.TestNoviceGs object at 0x000002CAF3EFE140>\n\n    @allure.feature(\"新手引导-大数据-导出\")\n    @allure.title('导出-用例1-正向')\n    # @pytest.mark.flaky(reruns=2, reruns_delay=2.5)\n    def testcase_02(self):\n        urls = self.base_urls + self.url_NoviceG_export\n        r = self.requests(method='post', url=urls, data=self.data_NoviceG_export, headers=self.fromHeader())\n        self.with_open(filename=r.content, filepath=\"新手引导.xlsx\")\n>       self.asserts_fails(TrueError=r)\n\ntest\\case\\test_noviceguidance.py:35: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncls = <class 'realization.test.case.test_noviceguidance.TestNoviceGs'>, TrueError = <Response [200]>\n\n    @classmethod  # 针对导出异常断言\n    def asserts_fails(cls, TrueError):\n        if \"token is error!\" in TrueError.text:\n            logger.error(f\"导出数据失败,请检查!!:{TrueError.text}\", exc_info=True)\n            assert False\n        elif \"操作失败\" in TrueError.text:\n            logger.error(f\"导出数据失败,请检查!!:{TrueError.text}\", exc_info=True)\n>           assert False\nE           AssertionError\n\ncomm\\asserts\\my_error.py:22: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b18363ea58ece088",
+      "name" : "log",
+      "source" : "b18363ea58ece088.txt",
+      "type" : "text/plain",
+      "size" : 3818
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestNoviceGs::0",
+    "time" : {
+      "start" : 1661214470174,
+      "stop" : 1661214470175,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestNoviceGs::0",
+    "time" : {
+      "start" : 1661214470237,
+      "stop" : 1661214470237,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "新手引导-大数据-导出"
+  }, {
+    "name" : "epic",
+    "value" : "新手引导-大数据"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test.case"
+  }, {
+    "name" : "suite",
+    "value" : "test_noviceguidance"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNoviceGs"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9FSJ2R0"
+  }, {
+    "name" : "thread",
+    "value" : "17864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.case.test_noviceguidance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e8b24ddafb461385.json",
+  "parameterValues" : [ ]
+}

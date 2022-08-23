@@ -1,0 +1,146 @@
+{
+  "uid" : "e40830af0365bbc9",
+  "name" : "操作-用例1-正向",
+  "fullName" : "test.case.test_smallgame.TestSmaLgame#testcase_02",
+  "historyId" : "ceeccfb862d3f46fe08fc778248fad94",
+  "time" : {
+    "start" : 1661214471855,
+    "stop" : 1661214471873,
+    "duration" : 18
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <realization.test.case.test_smallgame.TestSmaLgame object at 0x000002CAF3F29FC0>\n\n    @allure.feature(\"小游戏内购支付配置-操作\")\n    @allure.title('操作-用例1-正向')\n    # @pytest.mark.flaky(reruns=2, reruns_delay=2.5)\n    # @pytest.mark.xfail(True, reason='此接口有问题,待处理')\n    def testcase_02(self):\n        urls = self.base_urls + self.url_Game_add_del_exit\n        r = self.requests(method='post', url=urls, data=self.data_Game_add_del_exit, headers=self.fromHeader())\n>       self.asserts_fails(TrueError=r)\n\ntest\\case\\test_smallgame.py:37: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncls = <class 'realization.test.case.test_smallgame.TestSmaLgame'>, TrueError = <Response [200]>\n\n    @classmethod  # 针对导出异常断言\n    def asserts_fails(cls, TrueError):\n        if \"token is error!\" in TrueError.text:\n            logger.error(f\"导出数据失败,请检查!!:{TrueError.text}\", exc_info=True)\n>           assert False\nE           AssertionError\n\ncomm\\asserts\\my_error.py:19: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestSmaLgame",
+    "time" : {
+      "start" : 1661214471489,
+      "stop" : 1661214471559,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestSmaLgame",
+    "time" : {
+      "start" : 1661214471854,
+      "stop" : 1661214471855,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <realization.test.case.test_smallgame.TestSmaLgame object at 0x000002CAF3F29FC0>\n\n    @allure.feature(\"小游戏内购支付配置-操作\")\n    @allure.title('操作-用例1-正向')\n    # @pytest.mark.flaky(reruns=2, reruns_delay=2.5)\n    # @pytest.mark.xfail(True, reason='此接口有问题,待处理')\n    def testcase_02(self):\n        urls = self.base_urls + self.url_Game_add_del_exit\n        r = self.requests(method='post', url=urls, data=self.data_Game_add_del_exit, headers=self.fromHeader())\n>       self.asserts_fails(TrueError=r)\n\ntest\\case\\test_smallgame.py:37: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncls = <class 'realization.test.case.test_smallgame.TestSmaLgame'>, TrueError = <Response [200]>\n\n    @classmethod  # 针对导出异常断言\n    def asserts_fails(cls, TrueError):\n        if \"token is error!\" in TrueError.text:\n            logger.error(f\"导出数据失败,请检查!!:{TrueError.text}\", exc_info=True)\n>           assert False\nE           AssertionError\n\ncomm\\asserts\\my_error.py:19: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "161b7bf136191371",
+      "name" : "log",
+      "source" : "161b7bf136191371.txt",
+      "type" : "text/plain",
+      "size" : 1612
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestSmaLgame::0",
+    "time" : {
+      "start" : 1661214471882,
+      "stop" : 1661214471882,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestSmaLgame::0",
+    "time" : {
+      "start" : 1661214471880,
+      "stop" : 1661214471881,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "小游戏内购支付配置-操作"
+  }, {
+    "name" : "epic",
+    "value" : "小游戏内购支付配置"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test.case"
+  }, {
+    "name" : "suite",
+    "value" : "test_smallgame"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSmaLgame"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9FSJ2R0"
+  }, {
+    "name" : "thread",
+    "value" : "17864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.case.test_smallgame"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e40830af0365bbc9.json",
+  "parameterValues" : [ ]
+}

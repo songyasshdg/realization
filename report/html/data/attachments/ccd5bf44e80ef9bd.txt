@@ -1,0 +1,22 @@
+[32mINFO    [0m Test:__init__.py:90 ------------------------------------------------------
+[32mINFO    [0m Test:__init__.py:91 Func testcase_02 in file: C:\PycharmProjects\realization\test\case\test_subscribetemp.py
+[32mINFO    [0m 产品运营:my_base.py:20 
+==================================================接口自动化测试开始==========================================
+[32mINFO    [0m 产品运营:my_base.py:65 
+请求方法：POST
+请求地址：http://192.168.1.38:6105/operate/subscriptionTemplateConfig/handle
+请求参数:{'appid': '10001', 'create_owner': 'songya', 'create_time': '', 'handle': 'add', 'json': '{}', 'limit': '100', 'order': '', 'page': '6', 'start': '0', 'template_id': '23', 'update_owner': '', 'update_time': ''}
+发送请求：appid=10001&create_owner=songya&create_time=&handle=add&json=%7B%7D&limit=100&order=&page=6&start=0&template_id=23&update_owner=&update_time=
+请求头:{'token': 'wbtokengtzspaww7edhr85hk4ar5fnb', 'Content-Type': 'application/x-www-form-urlencoded', 'charset': 'utf-8'}
+响应未超过10秒:None
+上传文件:None
+
+
+响应结果：{"ret":2,"msg":"token is error!"}
+
+
+[32mINFO    [0m 产品运营:my_time.py:17 响应时间:0.022466
+[1m[31mERROR   [0m 产品运营:my_error.py:18 导出数据失败,请检查!!:{"ret":2,"msg":"token is error!"}
+NoneType: None
+[32mINFO    [0m 产品运营:my_base.py:25 
+=================================================接口自动化测试结束===========================================

@@ -1,0 +1,138 @@
+{
+  "uid" : "ec821850c49c29a1",
+  "name" : "新手引导柱形图表-用例1-正向",
+  "fullName" : "test.case.test_noviceguidance.TestNoviceGs#testcase_03",
+  "historyId" : "c2e2c0211c47ba62bcc5c8441bc0e434",
+  "time" : {
+    "start" : 1661214470180,
+    "stop" : 1661214470234,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestNoviceGs",
+    "time" : {
+      "start" : 1661214470180,
+      "stop" : 1661214470180,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestNoviceGs",
+    "time" : {
+      "start" : 1661214469780,
+      "stop" : 1661214469859,
+      "duration" : 79
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7a17abbc54d3b1a3",
+      "name" : "log",
+      "source" : "7a17abbc54d3b1a3.txt",
+      "type" : "text/plain",
+      "size" : 2071
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestNoviceGs::0",
+    "time" : {
+      "start" : 1661214470235,
+      "stop" : 1661214470236,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestNoviceGs::0",
+    "time" : {
+      "start" : 1661214470237,
+      "stop" : 1661214470237,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "新手引导-大数据-新手引导柱形图表"
+  }, {
+    "name" : "epic",
+    "value" : "新手引导-大数据"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test.case"
+  }, {
+    "name" : "suite",
+    "value" : "test_noviceguidance"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNoviceGs"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9FSJ2R0"
+  }, {
+    "name" : "thread",
+    "value" : "17864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.case.test_noviceguidance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec821850c49c29a1.json",
+  "parameterValues" : [ ]
+}

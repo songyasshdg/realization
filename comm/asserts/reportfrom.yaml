@@ -1,0 +1,9 @@
+# 一个.py文件对应一个类或多个类
+系统: 产品运营系统
+my_assert.py: 原生断言封装
+my_error.py:  异常断言封装
+my_check.py: pytest_check断言封装
+my_hamcrest.py: 多结构断言封装
+my_jsonpath.py: 文本断言封装
+my_time.py: 每个接口响应时间封装
+my_regular.py: 正则表达式断言封装

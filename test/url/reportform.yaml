@@ -1,0 +1,15 @@
+# 一个.py文件对应一个界面的接口的url地址和data数据
+系统: 产品运营系统
+url_revision.py:            修图分类管理  -> Api已关联
+url_mailsending.py:         礼包补发
+url_exchangecode.py:        单机兑换码V1
+url_businessmodel.py:       业务模式配置 -> Api已关联
+url_blacklist.py:           黑名单管理
+url_lockscreen.py:          新-V2锁屏配置 -> 结合界面测试(参数过多)
+url_retention.py:           应用内真实留存
+url_conversion.py:          外广转化漏斗
+url_smallgame.py:           小游戏内购支付配置
+url_noviceguidance.py:      新手引导-大数据
+url_subscribetemp.py:       订阅模板参数配置
+url_wechatsharing.py:       微信分享内容配置  -> Api已关联
+url_eventreporting.py:      小游戏事件上报统计-大数据

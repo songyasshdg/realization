@@ -1,0 +1,24 @@
+[32mINFO    [0m Test:__init__.py:90 ------------------------------------------------------
+[32mINFO    [0m Test:__init__.py:91 Func testcase_03 in file: C:\PycharmProjects\realization\test\case\test_revision.py
+[32mINFO    [0m 产品运营:my_base.py:20 
+==================================================接口自动化测试开始==========================================
+[32mINFO    [0m 产品运营:library.py:57 生成随机2-3位名字;汤阿炎彬
+[32mINFO    [0m 产品运营:library.py:33 生成随机4位验证码:7249
+[32mINFO    [0m 产品运营:my_base.py:65 
+请求方法：POST
+请求地址：http://192.168.1.38:6105/img/type/handle
+请求参数:{'handle': 'edit', 'id': '110', 'status': '1', 'type': '汤阿炎彬', 'typeSort': '7249'}
+发送请求：handle=edit&id=110&status=1&type=%E6%B1%A4%E9%98%BF%E7%82%8E%E5%BD%AC&typeSort=7249
+请求头:{'token': 'wbtokenkjw5oivww6fz5smxmfnypsij', 'Content-Type': 'application/x-www-form-urlencoded', 'charset': 'utf-8'}
+响应未超过10秒:None
+上传文件:None
+
+
+响应结果：{"ret":1,"msg":"操作成功"}
+
+
+[32mINFO    [0m 产品运营:my_assert.py:31 状态码:200, 响应ret:1, 响应msg:操作成功
+[32mINFO    [0m 产品运营:my_jsonpath.py:44 响应结果包含:[1, '操作成功']
+[32mINFO    [0m 产品运营:my_time.py:17 响应时间:0.266086
+[32mINFO    [0m 产品运营:my_base.py:25 
+=================================================接口自动化测试结束===========================================

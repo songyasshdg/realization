@@ -1,0 +1,9 @@
+# 一个.py文件对应一个类或多个类
+系统: 产品运营系统
+my_base.py: 公共类
+my_calculation.py: 计算类
+my_email.py: 邮件类
+my_excel.py: Excel数据驱动类
+my_json.py: json参数化封装
+my_yaml.py: yaml驱动类
+my_mysql.py: mysql类封装

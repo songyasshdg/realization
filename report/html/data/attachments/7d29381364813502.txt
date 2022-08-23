@@ -1,0 +1,22 @@
+[32mINFO    [0m Test:__init__.py:90 ------------------------------------------------------
+[32mINFO    [0m Test:__init__.py:91 Func testcase_04 in file: C:\PycharmProjects\realization\test\case\test_wechatsharing.py
+[32mINFO    [0m 产品运营:my_base.py:20 
+==================================================接口自动化测试开始==========================================
+[32mINFO    [0m 产品运营:my_base.py:65 
+请求方法：POST
+请求地址：http://192.168.1.38:6105/operate/shareContentConfig/delete
+请求参数:{'id': '110'}
+发送请求：id=110
+请求头:{'token': 'wbtokenlnif52mucxqjiatu4u3g0gal', 'Content-Type': 'application/x-www-form-urlencoded', 'charset': 'utf-8'}
+响应未超过10秒:None
+上传文件:None
+
+
+响应结果：{"ret":1,"msg":"操作成功"}
+
+
+[32mINFO    [0m 产品运营:my_assert.py:31 状态码:200, 响应ret:1, 响应msg:操作成功
+[32mINFO    [0m 产品运营:my_jsonpath.py:44 响应结果包含:[1, '操作成功']
+[32mINFO    [0m 产品运营:my_time.py:17 响应时间:0.054862
+[32mINFO    [0m 产品运营:my_base.py:25 
+=================================================接口自动化测试结束===========================================

@@ -1,0 +1,146 @@
+{
+  "uid" : "6da83ca84321f0dd",
+  "name" : "使用测试-用例1-正向",
+  "fullName" : "test.case.test_exchangecode.TestExcHnGecode#testcase_04",
+  "historyId" : "9018ccc9a03a4948e3d7c9778165ff64",
+  "time" : {
+    "start" : 1661214468758,
+    "stop" : 1661214468799,
+    "duration" : 41
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <realization.test.case.test_exchangecode.TestExcHnGecode object at 0x000002CAF3EDEB60>\n\n    @allure.feature(\"单机兑换码V1-使用测试\")\n    @allure.title('使用测试-用例1-正向')\n    # @pytest.mark.flaky(reruns=2, reruns_delay=2.5)\n    # @pytest.mark.xfail(reason='此接口需要刷新缓存功能才能结合测,未配置断言')\n    def testcase_04(self):\n        urls = self.base_urls + self.url_code_debuGapi\n        r = self.requests(method='post', url=urls, data=self.data_code_debuGapi, headers=self.jsonHeaders())\n>       assert False\nE       assert False\n\ntest\\case\\test_exchangecode.py:58: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestExcHnGecode",
+    "time" : {
+      "start" : 1661214468758,
+      "stop" : 1661214468758,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestExcHnGecode",
+    "time" : {
+      "start" : 1661214468138,
+      "stop" : 1661214468245,
+      "duration" : 107
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "self = <realization.test.case.test_exchangecode.TestExcHnGecode object at 0x000002CAF3EDEB60>\n\n    @allure.feature(\"单机兑换码V1-使用测试\")\n    @allure.title('使用测试-用例1-正向')\n    # @pytest.mark.flaky(reruns=2, reruns_delay=2.5)\n    # @pytest.mark.xfail(reason='此接口需要刷新缓存功能才能结合测,未配置断言')\n    def testcase_04(self):\n        urls = self.base_urls + self.url_code_debuGapi\n        r = self.requests(method='post', url=urls, data=self.data_code_debuGapi, headers=self.jsonHeaders())\n>       assert False\nE       assert False\n\ntest\\case\\test_exchangecode.py:58: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5a50d2d2d5406f18",
+      "name" : "log",
+      "source" : "5a50d2d2d5406f18.txt",
+      "type" : "text/plain",
+      "size" : 1059
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestExcHnGecode::0",
+    "time" : {
+      "start" : 1661214469022,
+      "stop" : 1661214469023,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestExcHnGecode::0",
+    "time" : {
+      "start" : 1661214469023,
+      "stop" : 1661214469023,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "单机兑换码V1"
+  }, {
+    "name" : "feature",
+    "value" : "单机兑换码V1-使用测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test.case"
+  }, {
+    "name" : "suite",
+    "value" : "test_exchangecode"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcHnGecode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9FSJ2R0"
+  }, {
+    "name" : "thread",
+    "value" : "17864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.case.test_exchangecode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6da83ca84321f0dd.json",
+  "parameterValues" : [ ]
+}
